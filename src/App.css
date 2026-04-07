@@ -1,42 +1,102 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  color: #111;
+  background: #fff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-cta {
+  background: #E1F5EE;
+  color: #1D9E75;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 2rem;
+  gap: 3rem;
+}
+
+.hero-title {
+  font-family: "Times New Roman";
+  font-size: 48px;
+}
+
+.btn-primary {
+  background: #111;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 24px;
+}
+
+.btn-ghost {
+  border: 1px solid #ccc;
+  padding: 10px 24px;
+  border-radius: 24px;
 }
 
 .card {
-  padding: 2em;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1rem;
+  background: white;
 }
 
-.read-the-docs {
-  color: #888;
+.section {
+  padding: 3rem 2rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.section-title {
+  font-family: "Times New Roman";
+  font-size: 26px;
+}
+
+.project-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.project-card:hover {
+  border-color: #1D9E75;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.skill-point {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: #E1F5EE;
+  color: #085041;
 }
