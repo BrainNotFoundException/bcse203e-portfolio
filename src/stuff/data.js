@@ -6,3 +6,9 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = ["Unity", "React", "Unreal Engine", "C#", "C++", "Javscript"];
+
+export const SOCIALS = [
+    {name: "LinkedIn", link: "https://www.linkedin.com/in/lavnishjhunjhunwala/"},
+    {name: "GitHub", link: "https://github.com/BrainNotFoundException"},
+    {name: "LeetCode", link: "https://leetcode.com/u/BrainNotFound"},
+];

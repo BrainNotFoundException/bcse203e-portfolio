@@ -1,6 +1,7 @@
 import Hero from "./stuff/hero";
 import Navbar from "./stuff/navbar";
 import Projects from "./stuff/projects";
+import Contact from "./stuff/contacts";
 
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <Contact />
     </>
   );
 }
