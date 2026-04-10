@@ -1,7 +1,7 @@
-import Hero from "./stuff/hero";
-import Navbar from "./stuff/navbar";
-import Projects from "./stuff/projects";
-import Contact from "./stuff/contacts";
+import Hero from "./components/hero";
+import Navbar from "./components/navbar";
+import Projects from "./components/projects";
+import Contact from "./components/contacts";
 
 import './App.css'
 
