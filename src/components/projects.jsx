@@ -12,7 +12,7 @@ export default function Projects() {
                         key={p.id}
                         className="project-card"
                     >
-                        <div style={{ height: 100 }} />
+                        <div style={{ height: 100, background: p.background}} />
                         <div>
                             <h4>{p.name}</h4>
                             <p>{p.desc}</p>
