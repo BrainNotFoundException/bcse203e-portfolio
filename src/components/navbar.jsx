@@ -5,8 +5,8 @@ export default function Navbar() {
     <nav className="nav">
       <span><b>Lavnish Jhunjhunwala</b></span>
       <div className="nav-links">
-        <a href="#work">Work</a>
         <a href="#about">About</a>
+        <a href="#work">Work</a>
         <a href="#contacts">Contact</a>
         <ThemeSwitcher />
       </div>
