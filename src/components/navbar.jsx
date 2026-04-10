@@ -1,3 +1,5 @@
+import ThemeSwitcher from "./Theme";
+
 export default function Navbar() {
   return (
     <nav className="nav">
@@ -6,6 +8,7 @@ export default function Navbar() {
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#contacts">Contact</a>
+        <ThemeSwitcher />
       </div>
     </nav>
   );

@@ -5,7 +5,7 @@ export const PROJECTS = [
     {id: 4, name: "Example 4", desc: "Example description 4", background: "url('/bcse203e-portfolio/images/keyb.jpg')"},
 ];
 
-export const SKILLS = ["Unity", "React", "Unreal Engine", "C#", "C++", "Javscript"];
+export const SKILLS = ["Unity", "React", "Unreal Engine", "C#", "C++", "Javscript", "NodeJs", "SQL"];
 
 export const SOCIALS = [
     {name: "LinkedIn", link: "https://www.linkedin.com/in/lavnishjhunjhunwala/"},

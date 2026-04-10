@@ -167,3 +167,56 @@ a {
   font-weight: 500;
   letter-spacing: 0.3px;
 }
+
+body.dark {
+  color: #f1f5f9;
+  background: radial-gradient(circle at top, #0f172a, #1e293b);
+}
+
+body.dark .nav {
+  background: rgba(15, 23, 42, 0.7);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+body.dark .card,
+body.dark .project-card {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(255,255,255,0.06);
+}
+
+body.dark .btn-primary {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+body.dark .btn-ghost {
+  border-color: rgba(255,255,255,0.15);
+  color: #f1f5f9;
+}
+
+body.dark .btn-ghost:hover {
+  border-color: #22c55e;
+  color: #4ade80;
+}
+
+body.dark .section {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+body.dark .skill-point {
+  background: linear-gradient(135deg, #064e3b, #065f46);
+  color: #6ee7b7;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.nav button:hover {
+  opacity: 1;
+}
